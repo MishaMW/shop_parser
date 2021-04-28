@@ -1,0 +1,6 @@
+version: '2'
+services:
+  php:
+    image: php:7.4-fpm-buster
+    volumes:
+      - ./:/var/www/html
